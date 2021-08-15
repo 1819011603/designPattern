@@ -4,6 +4,7 @@ package com.company.factory.simpleFactory;
  * @author 18190
  * @Date: 2021/8/15  21:11
  * @VERSION 1.0
+ * 静态方法简单工厂
  */
 
 //  将if-else  用方法名来区分 让用户看到名字就知道生产什么产品
