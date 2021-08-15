@@ -10,6 +10,7 @@ package com.company.factory.simpleFactory;
 public class SimpleFactoryTest {
     public static void main(String[] args) {
 
+
         System.out.println("===============简单普通工厂  工厂需要new  生产的产品通过参数来决定 需要用户了解参数信息======================");
         NormalSimpleFactory normalSimpleFactory = new NormalSimpleFactory();
         Phone iPhone = normalSimpleFactory.makePhone("IPhone");
