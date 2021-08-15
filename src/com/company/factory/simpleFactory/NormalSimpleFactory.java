@@ -4,6 +4,7 @@ package com.company.factory.simpleFactory;
  * @author 18190
  * @Date: 2021/8/15  21:01
  * @VERSION 1.0
+ * 普通简单工厂
  */
 public class NormalSimpleFactory {
     private Phone phone;
