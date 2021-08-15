@@ -4,6 +4,8 @@ package com.company.factory.simpleFactory;
  * @author 18190
  * @Date: 2021/8/15  21:01
  * @VERSION 1.0
+ * 简单工厂模式只生产一种产品 这次就是手机 不会又生产手机 又生产电脑
+ * 生产电脑会专门有一个生产电脑的简单工厂
  */
 public class SimpleFactoryTest {
     public static void main(String[] args) {
