@@ -6,7 +6,7 @@ package com.company.factory.simpleFactory;
  * @VERSION 1.0
  */
 
-//手机工厂
+//手机
 public interface Phone {
     void make();
 }
