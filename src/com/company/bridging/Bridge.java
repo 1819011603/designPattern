@@ -21,7 +21,7 @@ package com.company.bridging;
  *
  * 1个Implement：抽象出来的接口
  * n个Implement实现类： 接口具体实现类，本次是 xiaomi、ViVo、HUAWEI
- * Abstraction： 桥，包含一个Implement引用，通过构造函数初始化。  可以有n中不同的实现类
+ * Abstraction： 桥，包含一个Implement引用，通过构造函数初始化。  可以有n中不同的实现类（Abstraction中含有Implement引用）
  * m个Abstraction实现类：  一个Abstraction实现类可以与n中Implement实现类组成n个不同的手机 m个Abstraction实现类可以组成n*m个不同的手机
  *                        总的实现类为 n+m   (3 + 2 == 5)
  * 而且增加一个Abstraction/Implement实现类也特别方便  只需增加一个类即可
